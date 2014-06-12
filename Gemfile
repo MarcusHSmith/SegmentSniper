@@ -14,7 +14,7 @@ group :production do
 	gem 'rails_12factor'
 end
 
-group :development do
+group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
 end
