@@ -1,8 +1,9 @@
 source 'https://rubygems.org'
 
-gem 'strava-api'
+gem 'strava-api-v3'
 gem 'httparty'
 gem 'mocha'
+gem 'thin'
 
 gem 'rails', '4.1.0'
 gem 'sass-rails', '~> 4.0.3'
