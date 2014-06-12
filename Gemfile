@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+gem 'strava-api'
+gem 'httparty'
+gem 'mocha'
+
 gem 'rails', '4.1.0'
 gem 'sass-rails', '~> 4.0.3'
 gem 'uglifier', '>= 1.3.0'
@@ -15,5 +19,6 @@ group :production do
 end
 
 group :development, :test do
+	gem 'sqlite3'
   gem 'rspec-rails'
 end
