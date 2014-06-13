@@ -37,11 +37,16 @@ GEM
       execjs
     coffee-script-source (1.7.0)
     crack (0.1.8)
+    createsend (0.2.1)
+      hashie (~> 0.4.0)
+      httparty (~> 0.6.1)
+      json
     daemons (1.1.9)
     diff-lcs (1.2.5)
     erubis (2.7.0)
     eventmachine (1.0.3)
     execjs (2.2.0)
+    hashie (0.4.0)
     hike (1.2.3)
     httparty (0.6.1)
       crack (= 0.1.8)
@@ -149,9 +154,11 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
+  createsend
   httparty
   jbuilder (~> 2.0)
   jquery-rails
+  json
   mocha
   pg
   rails (= 4.1.0)

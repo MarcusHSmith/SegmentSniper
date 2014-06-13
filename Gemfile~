@@ -6,7 +6,7 @@ gem 'mocha'
 gem 'thin'
 gem 'createsend'
 gem 'json'
-
+gem 'psych'
 
 gem 'rails', '4.1.0'
 gem 'sass-rails', '~> 4.0.3'
